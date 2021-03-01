@@ -15,7 +15,7 @@ Either search for this package using an Arch AUR package manager like Pamac or Y
 
 git clone https://github.com/azalinux/realvnc-server-aarch64.git
 
-makepkg
+makepkg -si
 
 FYI:  You will need a vaild realvnc key - to activate run:   sudo /usr/bin/vnclicense -add
 
