@@ -7,13 +7,14 @@ Has been tested on all flavours of Manajaro ARM64 flavours using a 8gb Raspberry
 
 BEFORE YOU INSTALL THIS PACKAGE:
 
-Make sure you have the package base-devel installed fully.  For example, a default install of Manjaro Arch ARM64 only has some components of base-devel installed by default on a fresh installation so please perform the following command to ensure all prerequists for building the package are met:    pacman -S base-devel
+Make sure you have the package base-devel installed fully.  For example, a default install of Manjaro Arch ARM64 only has some components of   base-devel   installed by default on a fresh installation so please perform the following command to ensure all prerequists for building the package are met:    pacman -S base-devel
 
 Installation:
 
 Either search for this package using an Arch AUR package manager like Pamac or Yay or git clone this package to compile manually:
 
 git clone https://github.com/azalinux/realvnc-server-aarch64.git
+
 makepkg
 
 FYI:  You will need a vaild realvnc key - to activate run:   sudo /usr/bin/vnclicense -add
