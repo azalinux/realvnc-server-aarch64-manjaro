@@ -23,7 +23,7 @@ git clone https://github.com/azalinux/realvnc-server-aarch64.git
 
 makepkg -si
 
-FYI:  This should be pre-activated as the source is pre-activated for use with Raspberry Pi's however if it doesn't show a valid license after installation, you will need a vaild realvnc key;  to activate run:   sudo /usr/bin/vnclicense -add
+FYI:  This should be pre-activated as the source is pre-activated for use with Raspberry Pi's however if it doesn't show a valid license after installation, you will need a valid realvnc key;  to activate run:   sudo /usr/bin/vnclicense -add
 
 Don't forget to enable the systemd service:   sudo systemctl enable vncserver-x11-serviced.service
 
