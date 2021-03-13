@@ -11,7 +11,9 @@ Make sure you have the package base-devel installed fully.  For example, a defau
 
 Installation:
 
-git clone this package to compile manually:
+You can use the precompiled package in my Releases page and install using:   pacman -U 
+
+OR git clone this package to compile manually:
 
 git clone https://github.com/azalinux/realvnc-server-aarch64.git
 
