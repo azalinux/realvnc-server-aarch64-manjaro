@@ -1,9 +1,9 @@
 # realvnc-server-aarch64
-Real VNC Server for Raspberry Pi4 64bit AARCH64
+Real VNC Server for Raspberry Pi4 64bit Manjaro AARCH64
 
-This AUR package will install Realvnc Server aarch64 package on any ArchLinux based ARM64 installation on a Raspberry Pi4.
+This AUR package will install Realvnc Server aarch64 package on any Manjaro ArchLinux based ARM64 installation on a Raspberry Pi4.
 
-Has been tested on all flavours of Manajaro ARM64 flavours using a 8gb Raspberry Pi 4b.  Has also been tried on XFCE, MATE & KDE Plasma desktop flavours.  This should work on any vanilla ArchLiux ARM64 install too!
+Has been tested on all flavours of Manajaro ARM64 flavours using a 8gb Raspberry Pi 4b.  Has also been tried on XFCE, MATE & KDE Plasma desktop flavours.
 
 BEFORE YOU INSTALL THIS PACKAGE:
 
@@ -21,6 +21,6 @@ FYI:  This should be pre-activated as the source is pre-activated for use with R
 
 Don't forget to enable the systemd service:   sudo systemctl enable vncserver-x11-serviced.service
 
-And thats it!  A working 64bit Real VNC server running on ArchLinux ARM64!
+And thats it!  A working 64bit Real VNC server running on Manjaro ArchLinux ARM64!
 
 
