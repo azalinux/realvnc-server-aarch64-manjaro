@@ -19,9 +19,7 @@ source_aarch64=("http://archive.raspberrypi.org/debian/pool/main/r/realvnc-vnc/r
 md5sums_aarch64=('7e6d0bea799a71c75c72b82073e5f3e6')
 
 package() {
-    ln -s /opt/vc/lib/libvcos.so /usr/lib/libvcos.so.0
-    ln -s /opt/vc/lib/libvchiq_arm.so /usr/lib/libvchiq_arm.so.0
-    ln -s /opt/vc/lib/libbcm_host.so /usr/lib/libbcm_host.so.0
+     
     bsdtar -xv -C "${pkgdir}" -f "${srcdir}/"data.tar.*
     mkdir -p "${pkgdir}/usr/share/licenses/${pkgname}"
     ln -s /usr/share/doc/${pkgname}/copyright "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
