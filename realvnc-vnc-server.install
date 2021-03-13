@@ -2,7 +2,9 @@ post_install() {
     vncinitconfig --install-defaults
     echo 'To use VNC Connect, visit https://www.realvnc.com/en/products/vnc/#licensing for a subscription.'
  
-    
+    ln -s /opt/vc/lib/libvcos.so /usr/lib/libvcos.so.0
+    ln -s /opt/vc/lib/libvchiq_arm.so /usr/lib/libvchiq_arm.so.0
+    ln -s /opt/vc/lib/libbcm_host.so /usr/lib/libbcm_host.so.0
 
 }
 
