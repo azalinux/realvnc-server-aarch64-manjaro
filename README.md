@@ -11,13 +11,13 @@ Make sure you have the package base-devel installed fully.  For example, a defau
 
 Installation:
 
-Either search for this package using an Arch AUR package manager like Pamac or Yay or git clone this package to compile manually:
+git clone this package to compile manually:
 
 git clone https://github.com/azalinux/realvnc-server-aarch64.git
 
 makepkg -si
 
-FYI:  You will need a vaild realvnc key - to activate run:   sudo /usr/bin/vnclicense -add
+FYI:  This should be pre-activated as the source is pre-activated for use with Raspberry Pi's however if it doesn't show a valid license after installation, you will need a vaild realvnc key;  to activate run:   sudo /usr/bin/vnclicense -add
 
 Don't forget to enable the systemd service:   sudo systemctl enable vncserver-x11-serviced.service
 
