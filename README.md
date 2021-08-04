@@ -29,4 +29,4 @@ Don't forget to enable the systemd service:   sudo systemctl enable vncserver-x1
 
 And thats it!  A working 64bit RealVNC server running on Manjaro ArchLinux ARM64!
 
-
+**Please note - This free Raspberry Pi edition of RealVnc Server will only connect via TCP direct mode rather than UDP direct mode. You need an Enterprise License to connect via UDP!**
