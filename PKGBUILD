@@ -4,7 +4,7 @@ _watch=('https://archive.raspberrypi.org/debian/pool/main/r/realvnc-vnc/' 'realv
 
 pkgname=realvnc-vnc-server
 pkgver=6.7.2.43081
-pkgrel=1
+pkgrel=2
 pkgdesc='VNC remote desktop server software by RealVNC'
 arch=('aarch64')
 url='https://www.realvnc.com/'
