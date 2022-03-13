@@ -15,13 +15,13 @@ You can use the precompiled package in my Releases page to download & install:
 
 wget https://github.com/azalinux/realvnc-server-aarch64-manjaro/releases/download/realvnc-server-aarch64-v6.9.0/realvnc-vnc-server-6.9.0-1-aarch64.pkg.tar.zst
 
-pacman -U realvnc-vnc-server-6.9.0-1-aarch64.pkg.tar.zst
+$ sudo pacman -U realvnc-vnc-server-6.9.0-1-aarch64.pkg.tar.zst
 
 OR git clone this package to compile manually:
 
-git clone https://github.com/azalinux/realvnc-server-aarch64-manjaro.git
+$ git clone https://github.com/azalinux/realvnc-server-aarch64-manjaro.git
 
-makepkg -si
+$ makepkg -si
 
 FYI:  This should be pre-activated as the source is pre-activated for use with Raspberry Pi's however if it doesn't show a valid license after installation, you will need a valid realvnc key;  to activate run:   sudo /usr/bin/vnclicense -add
 
