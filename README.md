@@ -7,7 +7,7 @@ Has been tested on all flavours of Manajaro ARM64 flavours using a 8gb Raspberry
 
 BEFORE YOU INSTALL THIS PACKAGE:
 
-***I highly recommend you perform a full system update ($ sudo pacman -Syu) before installing this on Manjaro so that it has the latest kernel installed and latest list of updated packages installed also.***   
+***I highly recommend you perform a full system update ($ sudo pacman -Syu) before installing this on Manjaro so that it has the latest kernel installed (5.15+ and latest list of updated packages installed also.***   
 
 Make sure you have the package base-devel installed fully.  For example, a default install of Manjaro Arch ARM64 only has some components of   base-devel   installed by default on a fresh installation so please perform the following command to ensure all prerequists for building the package are met:    pacman -S base-devel
 
