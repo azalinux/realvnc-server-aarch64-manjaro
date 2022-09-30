@@ -1,6 +1,6 @@
 pkgbase = realvnc-vnc-server
 	pkgdesc = VNC remote desktop server software by RealVNC
-	pkgver = 6.10.1
+	pkgver = 6.11.0
 	pkgrel = 1
 	url = https://www.realvnc.com/
 	install = realvnc-vnc-server.install
@@ -13,8 +13,8 @@ pkgbase = realvnc-vnc-server
 	conflicts = tightvnc
 	conflicts = tigervnc
 	conflicts = turbovnc
-	source_aarch64 = https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-6.10.1-Linux-ARM64.deb
-	sha256sums_aarch64 = aa327391628a8ca116db7654853d5692fd199b957041af9de40146dcd21bdb3a
+	source_aarch64 = https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-6.11.0-Linux-ARM64.deb
+	sha256sums_aarch64=743d38894f374ce97c5075e45380c35cd4487aef809100b3e5f2c27fbc0d0b04
 	
 
 pkgname = realvnc-vnc-server
