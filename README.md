@@ -21,8 +21,8 @@ Installation:
 
 You can use the precompiled package in my Releases page to download & install:
 ```
-$ wget https://github.com/azalinux/realvnc-server-aarch64-manjaro/releases/download/realvnc-server-aarch64-v7.0.0/realvnc-vnc-server-7.0.0-1-aarch64.pkg.tar.zst
-$ sudo pacman -U realvnc-vnc-server-7.0.0-1-aarch64.pkg.tar.zst
+$ wget https://github.com/azalinux/realvnc-server-aarch64-manjaro/releases/download/v7.0.1/realvnc-vnc-server-7.0.1-1-aarch64.pkg.tar.zst
+$ sudo pacman -U realvnc-vnc-server-7.0.1-1-aarch64.pkg.tar.zst
 ```
 OR git clone this package to compile manually:
 ```
