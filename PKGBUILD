@@ -1,6 +1,6 @@
 # Maintainer: azasouth <azasouth(at)bigpond(dot)com>
 
-_watch=('https://www.realvnc.com/en/connect/download/vnc/raspberrypi/' 'realvnc-vnc-server_(\d[\d.]*\d+)_ARM64\.deb')
+_watch=('https://downloads.realvnc.com/en/connect/download/vnc/raspberrypi/' 'realvnc-vnc-server_(\d[\d.]*\d+)_ARM64\.deb')
 
 pkgname=realvnc-vnc-server
 pkgver=7.0.1
@@ -14,7 +14,7 @@ optdepends=('cups: Printer support')
 install='realvnc-vnc-server.install'
 conflicts=('tightvnc' 'tigervnc' 'turbovnc')
 
-source_aarch64=("https://www.realvnc.com/download/file/vnc.files/VNC-Server-${pkgver}-Linux-ARM64.deb")
+source_aarch64=("https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-${pkgver}-Linux-ARM64.deb")
 
 sha256sums_aarch64=('0e7a265ddc5d3ccf6d63738290de5e82a449d88319c92dcdef32012285b243b7')
 
