@@ -23,5 +23,11 @@ package() {
     bsdtar -xv -C "${pkgdir}" -f "${srcdir}/"data.tar.*
     mkdir -p "${pkgdir}/usr/share/licenses/${pkgname}"
     ln -s /usr/share/doc/${pkgname}/copyright "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+    if [ -e "/usr/bin/vncserver" ]; then
+    echo "File /usr/bin/vncserver exists. Renaming to /usr/bin/vncserver.bak"
     sudo mv /usr/bin/vncserver /usr/bin/vncserver.bak
+    else
+    echo "File /usr/bin/vncserver does not exist - continuing with installation :-)."
+  fi
+
 }
