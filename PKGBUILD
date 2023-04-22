@@ -23,5 +23,5 @@ package() {
     bsdtar -xv -C "${pkgdir}" -f "${srcdir}/"data.tar.*
     mkdir -p "${pkgdir}/usr/share/licenses/${pkgname}"
     ln -s /usr/share/doc/${pkgname}/copyright "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
-    
+    sudo mv /usr/bin/vncserver /usr/bin/vncserver.bak
 }
