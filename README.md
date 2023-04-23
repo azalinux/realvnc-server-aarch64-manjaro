@@ -7,7 +7,7 @@ Has been tested on all flavours of Manajaro ARM64 flavours using a 8gb Raspberry
 
 BEFORE YOU INSTALL THIS PACKAGE:
 
-***For verions 7+, I highly recommend you install this manually via cloning the GIT repo - only use the binary package if you DON"T have RealVNC installed!***
+***For verions 7+, I highly recommend you install this manually via cloning the GIT repo [instructions below] - only use the binary package if you DON"T have RealVNC installed!***
 
 ***Warning - Version 7 does NOT accept Version 6 Offline 25 number enterprise keys!***
 
