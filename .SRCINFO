@@ -13,8 +13,8 @@ pkgbase = realvnc-vnc-server
 	conflicts = tightvnc
 	conflicts = tigervnc
 	conflicts = turbovnc
-	source_aarch64 = https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-7.1.0-Linux-ARM64.deb
-	sha256sums_aarch64=687c87f467875e820d74bb725ecd534866a13fe74220e0973bf68de7eea85677
+	source_aarch64 = https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-7.5.0-Linux-ARM64.deb
+	sha256sums_aarch64=fa4b96fc6c00bf068bc164f22619d64a0187c23ff0724730bcc3e8f18bc64263
 	
 
 pkgname = realvnc-vnc-server
