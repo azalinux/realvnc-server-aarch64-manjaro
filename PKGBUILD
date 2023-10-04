@@ -3,7 +3,7 @@
 _watch=('https://downloads.realvnc.com/en/connect/download/vnc/raspberrypi/' 'realvnc-vnc-server_(\d[\d.]*\d+)_ARM64\.deb')
 
 pkgname=realvnc-vnc-server
-pkgver=7.6.0
+pkgver=7.6.1
 pkgrel=1
 pkgdesc='VNC remote desktop server software by RealVNC'
 arch=('aarch64')
@@ -16,7 +16,7 @@ conflicts=('tightvnc' 'tigervnc' 'turbovnc')
 
 source_aarch64=("https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-${pkgver}-Linux-ARM64.deb")
 
-sha256sums_aarch64=('eaf5ba44862a998d0a9ceaab293ab605513c2f39dbc3598ac37429f244b90ea1')
+sha256sums_aarch64=('3f1c3ebf306985d76b3d7d1a656733c89d89f5d56b2bcfbd0e938649de030e1a')
 
 package() {
      
