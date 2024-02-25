@@ -1,7 +1,7 @@
 # realvnc-server-aarch64-manjaro
 
 >[!IMPORTANT]
->November 2023 onwards update to Manjaro stable branch will break RealVNC Server!!!  Release versions after v7.8.0-2 addresses this issue.
+>November 2023 onwards update to Manjaro stable branch will break RealVNC Server!!!  Release versions including v7.8.0-2 (and later versions) addresses this issue.
 >Issue is the package 'raspberrypi-userland-aarch64-git' has been replaced by 'raspberrypi-utils' which doesn't include the required lib files needed in /usr/lib
 
 
