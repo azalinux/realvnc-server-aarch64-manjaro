@@ -1,7 +1,7 @@
 # realvnc-server-aarch64-manjaro
 
 >[!IMPORTANT]
->November 2023 update to Manjaro stable branch will break RealVNC Server!!!  I have added a point release v7.8.0-2 which addresses the problem.
+>November 2023 onwards update to Manjaro stable branch will break RealVNC Server!!!  Release versions after v7.8.0-2 addresses this issue.
 >Issue is the package 'raspberrypi-userland-aarch64-git' has been replaced by 'raspberrypi-utils' which doesn't include the required lib files needed in /usr/lib
 
 
@@ -27,12 +27,13 @@ Installation:
 
 You can use the precompiled package in my Releases page to download & install:
 ```
-$ wget https://github.com/azalinux/realvnc-server-aarch64-manjaro/releases/download/v7.9.0/realvnc-vnc-server-7.9.0-1-aarch64.pkg.tar.zst
-$ sudo pacman -U realvnc-vnc-server-7.9.0-1-aarch64.pkg.tar.zst
+$ wget https://github.com/azalinux/realvnc-server-aarch64-manjaro/releases/download/v7.10.0/realvnc-vnc-server-7.10.0-1-aarch64.pkg.tar.zst
+$ sudo pacman -U realvnc-vnc-server-7.10.0-1-aarch64.pkg.tar.zst
 ```
 OR git clone this package to compile manually:
 ```
 $ git clone https://github.com/azalinux/realvnc-server-aarch64-manjaro.git
+$ cd realvnc-server-aarch64-manjaro
 $ makepkg -si
 ```
 FYI:  This should be pre-activated as the source is pre-activated for use with Raspberry Pi's however if it doesn't show a valid license after installation, you will need a valid realvnc key;  to activate run:   
