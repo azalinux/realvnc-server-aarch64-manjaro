@@ -3,7 +3,7 @@
 _watch=('https://downloads.realvnc.com/en/connect/download/vnc/raspberrypi/' 'realvnc-vnc-server_(\d[\d.]*\d+)_ARM64\.deb')
 
 pkgname=realvnc-vnc-server
-pkgver=7.9.0
+pkgver=7.10.0
 pkgrel=1
 pkgdesc='VNC remote desktop server software by RealVNC'
 arch=('aarch64')
@@ -16,7 +16,7 @@ conflicts=('tightvnc' 'tigervnc' 'turbovnc')
 
 source_aarch64=("https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-${pkgver}-Linux-ARM64.deb" "https://github.com/azalinux/realvnc-server-aarch64-fedora/raw/main/pifirmware_libs.tar.gz")
 
-sha256sums_aarch64=('d6205d310a68771ee71be692eeb6bf2a1daf635cddce0d12ab9b511259ee6ac6' '224709560792f4347ad8e3700dac72fd341582081d2b7c26d9a8e33d583af703')
+sha256sums_aarch64=('c7489cf07fa661dc19a2851a13df2fef81d937cc595223f547370664e2cf721d' '224709560792f4347ad8e3700dac72fd341582081d2b7c26d9a8e33d583af703')
 
 build() {
   # Extract the source files
