@@ -14,9 +14,9 @@ optdepends=('cups: Printer support')
 install='realvnc-vnc-server.install'
 conflicts=('tightvnc' 'tigervnc' 'turbovnc')
 
-source_aarch64=("https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-${pkgver}-Linux-ARM64.deb" "https://github.com/azalinux/realvnc-server-aarch64-fedora/raw/main/pifirmware_libs.tar.gz")
+source_aarch64=("https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-${pkgver}-Linux-ARM64.deb")
 
-sha256sums_aarch64=('d5e5981503141e6445a380013bc31cf39599148dfb5925cfc6c22789caaf7df7' '224709560792f4347ad8e3700dac72fd341582081d2b7c26d9a8e33d583af703')
+sha256sums_aarch64=('d5e5981503141e6445a380013bc31cf39599148dfb5925cfc6c22789caaf7df7')
 
 
 package() {
